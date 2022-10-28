@@ -1,5 +1,6 @@
 using UnityEngine;
-
+//何かの処理をキャンセルする場合は外からキャンセルできるようにする
+//非同期処理の基本
 public class TextMessageController : MonoBehaviour
 {
     [SerializeField]
