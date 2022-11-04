@@ -11,7 +11,7 @@ public class MessagePrinter : MonoBehaviour
     private string _message = "";
     private float _elapsed = 0; // 文字を表示してからの経過時間
     [SerializeField] private float _interval; // 文字毎の待ち時間
-    
+    [SerializeField] GameObject _fade;
     // _message フィールドから表示する現在の文字インデックス。
     // 何も指していない場合は -1 とする。
     private int _currentIndex = -1;
